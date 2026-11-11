@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - name: Extract Android project
-        run: python3 -m zipfile -e klock-launcher-source.zip .
+        run: python3 -m zipfile -e klock-launcher-source-v4.zip .
       - uses: actions/setup-java@v4
         with:
           distribution: temurin
